@@ -1,0 +1,233 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #515751;
+    background-size: cover;
+}
+
+.app{
+    background-color: #515751;
+    background-size: cover;
+    color: #BACDD9;
+}
+
+.mainContainer{
+    overflow: hidden;
+    background-color: rgb(241, 255, 244);
+    background-size: cover;
+    color: rgb(8, 8, 8);
+
+    padding-bottom: 30px;
+    width: 100%;
+    margin: auto;
+}
+
+.mainContainer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.mainContainer li{
+    float: left;
+    margin-left: 3px;
+}
+
+.navbar{
+    height: 150px;
+    background-color: #F5F9E9;
+}
+
+.header{
+    position: relative;
+    display: inline-block;
+    align-content: center;
+    padding: 20px 10px 20px 10px;
+    color: #F1F2FF;
+    height: 150px;
+    max-height: 150px;
+    width: 100%;
+    background-color:#081c24 ;
+}
+
+.headerSearchList{
+    float: left;
+    color: grey;
+    width: 55%;
+    max-width: 750px;
+}
+
+#headerLogo{
+    float: left;
+    margin-left: 20%;
+    max-width: 150px;
+    max-height: 150px;
+    padding: 8px;
+}
+
+#headerLogo img{
+    width: 100px;
+    height: 100px;
+}
+
+.movieContainer{
+    color: #0B0B0D;
+    padding: 0%, 10%, 0%, 10%;
+}
+
+.movieContainer img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#movieTitle{
+    font-size: 68px;
+    font-weight: bold;
+    letter-spacing: -4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: -5px;
+}
+
+#movieTagline{
+    font-size: 22px;
+    font-style: italic;
+    letter-spacing: .5px;
+}
+
+#movieImage{
+    padding-top: 20px;
+    width: 275px;
+    max-width: 325px;
+    height: 400px;
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+#movieImage img{
+    border: 2px solid rgb(173, 173, 173);
+    width: 275px;
+    max-width: 325px;
+    height: 375px;
+    max-height: 400px;
+    margin-right: 220px;
+}
+
+#movieScore{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.imdGallery{
+    width: 100%;
+    max-width: 175px;
+    max-height: 260px;
+    height: 100%;
+}
+
+.headerMovie{
+    margin: auto;
+}
+
+#movieInfo .row{ 
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+#movieInfo .row .color{ 
+    color: #FF7F26;
+    font-weight: bold;
+}
+
+#movieInfo .row .color b{ 
+    color: #CC8B0A;
+    font-weight: bold;
+}
+
+#movieRelease h4{
+    padding-top: -20px;
+}
+
+.headerMovieScore{
+    font-weight: bold;
+}
+
+.cardContainer{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    align-content: center;
+    height: 350px;
+    max-height: 350px;
+}
+
+.cardContainer img{
+    border: 1px solid rgb(173, 173, 173);
+    width: 200px;
+    max-width: 200px;
+    height: 300px;
+    max-height: 300px;
+}
+
+.cardContainer img:hover{
+    cursor: pointer;
+}
+
+.cardContainer span{
+    align-content: right;
+    text-align: right;
+    font-weight: bold;
+    left: 0;
+    bottom: 0;
+}
+
+.actorContainer{
+    width: 100%;
+}
+
+.actorCardContainer {
+    display: inline-block;
+    width: 400px;
+    max-width: 500px;
+    padding-bottom: 10px;
+}
+
+.actorCardContainer:hover{
+    background-color: rgb(205, 209, 191);
+}
+
+.actorCardContainer img {
+    float: left;
+    width: 100%;
+    max-width: 100px;
+    height: 100%;
+    max-height: 120px;
+}
+
+.actorCardContainer #right{
+    overflow: hidden;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.slick-arrow{
+    height: 75px;
+    max-height: 75px;
+    width: 30px;
+    max-width: 30px;
+}
+
+.slick-arrow.slick-prev::before{
+    margin: auto;
+    color: #081c24;
+}
+
+.slick-arrow.slick-next::before{
+    margin: auto;
+    color: #081c24;
+}
